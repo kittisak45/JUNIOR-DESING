@@ -1,0 +1,680 @@
+
+
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>juniordesign</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+	<link rel="shortcut icon" href="favicon.ico" />
+	<script src="jquery-3.4.1.min.js"></script>
+	
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+	
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<body>
+<!--	top-->
+	
+	    <div id="aa" class="d-none">
+        <a href="#" class="top" style="z-index: 1000;background: #f9b354;position: fixed;right: 10px;bottom: 100px;padding: 13px;color: #1d2129;border-radius: 10px;"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+    </div>
+	
+<!---->
+	
+	
+
+	<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+		  
+		   $(window).on('scroll', function() {
+            if ($(window).scrollTop()) {
+                $("#aa ").addClass('d-block');
+                $("#aa").removeClass('d-none');
+                $("#aa > a").addClass('animated');
+                $("#aa > a").addClass('slideInDown');
+            } else {
+                $("#aa").removeClass('d-block');
+                $("#aa > a").removeClass('animated');
+                // $("#aa > a").addClass('slideOutUp');
+                $("#aa").addClass('d-none');
+
+            }
+        })
+		  
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v6.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/th_TH/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your customer chat code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="102987817838211"
+  theme_color="#ffc300"
+  logged_in_greeting="สวัสดีครับ  ติดต่อสอบถามได้เลยครับผม"
+  logged_out_greeting="สวัสดีครับ  ติดต่อสอบถามได้เลยครับผม">
+      </div>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-start -->
+    <header>
+		
+		
+		
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-xl-3 col-lg-3">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="img/logonew.png" class="rounded" width="251" height="55" alt="">
+                                </a>
+                            </div>
+                        </div>
+<div class="col-xl-3 col-lg-3">&nbsp;</div>
+<div class="col-xl-6 col-lg-8">
+              <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a href="index.html">หน้าหลัก</a></li>
+                                        <li><a href="#">หลักสูตรของเรา <em class="ti-angle-down"></em></a>
+                                          <ul class="submenu">
+                                                <li><a href="Page2.html">อินโฟกราฟิกคืออะไร</a></li>
+                                                <li><a href="Page3.html">แนวคิดการผลิตอินโฟกราฟิก </a></li>
+                                                <li><a href="Page4.html">หลักการใช้งานกราฟิกรูปแบบต่างๆ</a></li>
+											  <li><a href="Page5.html">การออกแบบอินโฟกราฟิกเบื้องต้น</a></li>
+											  <li><a href="Page6.html">กลเม็ดการผลิตอินโฟกราฟิกให้ดูดี</a></li>
+											  <li><a href="Page7.html">การออกแบบอินโฟกราฟิกด้วยโปรแกรมอื่นๆ</a></li>
+											  <li><a href="Page8.html">เทคนิคการใช้สี</a></li>
+											  <li><a href="Page9.html">วงล้อสี</a></li>
+                                          </ul>
+                                      </li>
+										 <li><a href="#">แบบทดสอบ<em class="ti-angle-down"></em></a>
+                                          <ul class="submenu">
+                                                <li><a href="Page1.html">อินโฟกราฟิกคืออะไร</a></li>
+                                                <li><a href="Test2.html">แนวคิดการผลิตอินโฟกราฟิก </a></li>
+                                                <li><a href="Test3.html">หลักการใช้งานกราฟิกรูปแบบต่างๆ</a></li>
+											  <li><a href="Test4.html">การออกแบบอินโฟกราฟิกเบื้องต้น</a></li>
+											  <li><a href="Test5.html">กลเม็ดการผลิตอินโฟกราฟิกให้ดูดี</a></li>
+											  <li><a href="Test6.html">การออกแบบอินโฟกราฟิกด้วยโปรแกรมอื่นๆ</a></li>
+											  <li><a href="Test7.html">เทคนิคการใช้สี</a></li>
+											  <li><a href="Test8.html">วงล้อสี</a></li>
+                                          </ul>
+										</li>
+										<li><a href="VDO.html">วิดีโอ<em class="ti-angle-down"></em></a>
+                                          <ul class="submenu">
+											  	
+                                                <li><a href="https://youtu.be/JCJZZ9QqwfU" target="_blank">คลิปอินโฟกราฟิกคืออะไร</a></li>
+                                                <li><a href="https://youtu.be/mnqw-J-PvTU"target="_blank">คลิปการสร้างอินโฟกราฟิกด้วยโปรแกรม Microsoft Word</a></li>
+                                                <li><a href="https://youtu.be/9E_BpJl2Tdg"target="_blank">คลิปการสร้างอินโฟกราฟิกด้วยโปรแกรม Adobe illustrator</a></li>
+											  <li><a href="https://youtu.be/nbXf9gKltjU"target="_blank">คลิปการสร้างอินโฟกราฟิกด้วยโปรแกรม Microsoft PowerPoint</a></li>
+											  <li><a href="https://youtu.be/krdCOFvvIHc"target="_blank">คลิปการสร้างอินโฟกราฟิกด้วยโปรแกรม Adobe Photoshop</a></li>
+											 <li><a href="VDO.html">คลิปวิดีโอทั้งหมด</a></li>
+                                          </ul>
+										</li>
+                                        <li><a href="about.html">เกี่ยวกับ</a></li>
+                                       
+                                        <li> 
+									<div class="socail_links">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/Juniordesigninfographic"target="_blank">
+                                                <i class="ti-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.youtube.com/channel/UC95Z6i3SBM1KY1ZBSZWvDMQ"target="_blank">
+                                                <i class="fa fa-youtube-play"></i>
+                                            </a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+    </li>
+                                  </ul>
+                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                            <div class="Appointment">
+                                <div class="book_btn d-none d-lg-block"> </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+
+    <div class="shap_big_2 d-none d-lg-block">
+        <img src="img/ilstrator/body_shap_2.png" alt="">
+    </div>
+    <!-- slider_area_start -->
+    <div class="slider_area">
+        <div class="shap_img_1 d-none d-lg-block">
+            <img src="img/ilstrator/body_shap_1.png" alt="">
+        </div>
+        <div class="poly_img">
+            <img src="img/ilstrator/poly.png" alt="">
+        </div>
+        <div class="single_slider  d-flex align-items-center slider_bg_1">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-10 offset-xl-1">
+                        <div class="slider_text text-center">
+                            <div class="text">
+                              <h3>เปลี่ยนข้อความให้เป็นภาพที่ทรงพลัง</h3>
+								<h4 class="text-center">สร้างสวรรค์ผลงานให้ออกมาเป็นที่หน้าพอใจ</h4><br>
+                              <a class="boxed-btn3" href="Page2.html">เริ่มเรียนกันเลย</a>
+                          </div>
+                            <div class="ilstrator_thumb">
+                                <img src="img/banner.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider_area_end -->
+
+    <!-- service_area  -->
+    <div class="service_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/svg_icon/seo_1.svg" alt="">
+                        </div>
+                        <h3>สร้างจับตามองของธุรกิจ</h3>
+                        <p>เมื่อมีผลงานที่โดดเด่นแล้วจะเป็นที่รู้จักของทุกคนเอง</p><br>
+                        <a href="Page2.html" class="boxed-btn3-text">เริ่มเรียน</a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/svg_icon/seo_2.svg" alt="">
+                        </div>
+                        <h3>สร้างผลงานเป็นรายได้</h3>
+                        <p>ในยุคสมัยที่มีการเปลี่ยนแปลงทางด้านต่าง ๆ ทั้งทางด้านการค้าเราเองเรียนเพื่อสร้างโฆษณาให้เป็นที่รู้จักของคนทุกคน</p>
+                        <a href="Page2.html" class="boxed-btn3-text">เริ่มเรียน</a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/svg_icon/seo_3.svg" alt="">
+                        </div>
+                        <h3>สร้างผลงานของสู่สังคม</h3>
+                        <p>สร้างผลงานต่าง ๆ ออกมาแล้วเผื่อแพร่ออกไปในบนโลกของอินเทอร์เน็ตให้</p><br>
+                        <a href="Page2.html" class="boxed-btn3-text">เริ่มเรียน</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--/ service_area  -->
+
+    <!-- compapy_info  -->
+    <div class="compapy_info">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-md-5">
+                    <div class="man_thumb">
+                        <img src="img/ilstrator/man1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-7 col-md-7">
+                    <div class="company_info">
+                      <h3>ส่งเสริมให้ผู้เรียนสร้างสรรค์</h3>
+                      <h3>ผลงานของตนเอง</h3>
+                      <h3>ออกมาให้ดีที่สุด</h3>
+                      <p>เน้นให้ผู้เรียนนำความรู้ที่เรียนไปสรรค์สร้างผลงานออกมาให้อยู่ในรูปแบบของตนเองได้เราะเราเชื่อมั่นว่าไม่มีความรู้ใดมากกว่าการหาประสบการณ์</p>
+                      <a href="Page2.html" class="boxed-btn3">เริ่มเรียน</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ compapy_info  -->
+
+    <!-- case_study_area  -->
+    <div class="case_study_area case_bg_1">
+        <div class="patrn_1 d-none d-lg-block">
+            <img src="img/pattern/patrn_1.png" alt="">
+        </div>
+        <div class="patrn_2 d-none d-lg-block">
+            <img src="img/pattern/patrn.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center mb-95 white_text">
+                        <h3>มีเรื่องราวที่ให้ศึกษาที่สนใจมากมาย</h3>
+                        <p>ผู้เรียนสามารถศึกษาเนื้อหาของทางเว็บไซต์ของเรา <br>
+                            พร้อมสนุกไปกับการสร้างอินโฟกราฟิก</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="case_active owl-carousel">
+                            <div class="single_study text-center">
+                                    <div class="thumb">
+                                        <a href="Page3.html">
+                                            <img src="img/case_study/1_1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="subheading">
+                                        <h4><a href="Page3.html">แนวคิดการผลิตอินโฟกราฟิก</a></h4>
+                                        <p>แปลงความคิดมาสร้างเป็นผลงานที่โดดเด่น</p>
+                                    </div>
+                                </div>
+                            <div class="single_study text-center">
+                                    <div class="thumb">
+                                        <a href="Page2.html">
+                                            <img src="img/case_study/2_2.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="subheading">
+                                        <h4><a href="Page2.html">อินโฟกราฟิกคืออะไร</a></h4>
+                                        <p>เรียนรู้ความหมายของอินโฟกราฟิก </p>
+                                    </div>
+                                </div>
+                            <div class="single_study text-center">
+                                    <div class="thumb">
+                                        <a href="Page4.html">
+                                            <img src="img/case_study/8_8.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="subheading">
+                                        <h4><a href="Page4.html">หลักการใช้งานกราฟฟิกรูปแบบต่างๆ</a></h4>
+                                        <p>เลือกรูปแบบที่ใช้ในการเสอนงาน</p>
+                                    </div>
+                                </div>
+                            <div class="single_study text-center">
+                                    <div class="thumb">
+                                        <a href="Page5.html">
+                                            <img src="img/case_study/9_9.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="subheading">
+                                        <h4><a href="Page5.html">การออกแบบอินโฟกราฟิกเบื้องต้น</a></h4>
+                                        <p>ไม่มีความรู้พื้นฐานก็สารถเรียนได้</p>
+                                    </div>
+                                </div>
+                                <div class="single_study text-center">
+                                        <div class="thumb">
+                                            <a href="Page7.html">
+                                                <img src="img/case_study/10_10.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="subheading">
+                                            <h4><a href="Page7.html">การออกแบบอินโฟกราฟิกด้วยโปรแกรมอื่นๆ</a></h4>
+                                            <p>สอนใช้โปรแกรมจากพื้นฐานไปสู่มืออาชีพ</p>
+                                        </div>
+                                    </div>
+                                <div class="single_study text-center">
+                                        <div class="thumb">
+                                            <a href="Page8.html">
+                                                <img src="img/case_study/7_7.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="subheading">
+                                            <h4><a href="Page8.html">เทคนิคการใช้สี</a></h4>
+                                            <p>ใช้สีให้เหมาสมเพื่อชิ้นงานที่โดดเด่น</p>
+                                        </div>
+                                    </div>
+                                    <div class="single_study text-center">
+                                            <div class="thumb">
+                                                <a href="Page9.html">
+                                                    <img src="img/case_study/3_3.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="subheading">
+                                                <h4><a href="Page9.html">วงล้อสี</a></h4>
+                                                <p>จับคู่สีให้ชิ้นงานมีความโดดเด่น</p>
+                                            </div>
+                                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ case_study_area  -->
+
+    <!-- accordion_area  -->    <!--/ accordion_area  -->
+
+
+    <!-- features_area  -->
+    <div class="features_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center">
+                        <h3>JUNIOR DESING<br>
+                            เปลี่ยนข้อความให้เป็นภาพที่ทรงพลัง</h3>
+                            <p>การสร้างเว็บไต์นี้เพื่อต้องการแบ่งปันความรูประสบการ์ณต่าง ๆ ที่มีมาเพื่อเป็นประโยชน์ของทุกคนที่ต้องการจะฝึกสร้างอินโฟกราฟิกให้เป็น<br>เเละสามารถนความรูตรงนี้ไปสร้างเป็นอาชีบได้</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single_feature">
+                        <div class="icon">
+                            <img src="img/svg_icon/feature_1.svg" alt="">
+                        </div>
+                        <h4>ฝึกสร้างผลงาน</h4>
+                        <p>ฝึกสร้างผลงานจนออกมมาเป็นรูปแบบเป็นเอกลักษณ์ของต้นเอง</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single_feature">
+                        <div class="icon">
+                            <img src="img/svg_icon/feature_2.svg" alt="">
+                        </div>
+                        <h4>สืบค้นหาข้อมูลให้เป็น</h4>
+                        <p>สอนการหาข้อมูลการสรุปขอ้อมูลเพื่อนำมาสร้างอินโฟกราฟิก</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single_feature">
+                        <div class="icon">
+                            <img src="img/svg_icon/feature_3.svg" alt="">
+                        </div>
+                        <h4>ผลงานจะเป็นที่โดดเด่น</h4>
+                        <p>สารถนำผลงานไปเผยแพร่บนโลกอินเทอร์เน็ตได้อย่างมั่นใจ</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single_feature">
+                        <div class="icon">
+                            <img src="img/svg_icon/feature_4.svg" alt="">
+                        </div>
+                        <h4>สร้างสื่อสำหรับการติดต่อสื่อสาร</h4>
+                        <p>สร้างสือสำหรับการติดต่อสื่อสรากับลูกค้าหรือโฆษณาต่าง ๆ</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single_feature">
+                        <div class="icon">
+                            <img src="img/svg_icon/feature_5.svg" alt="">
+                        </div>
+                        <h4>มีกระบวนการคิด ที่ดี</h4>
+                        <p>การคิดตกผลึกให้ผลงานออกมาดีที่สุด</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single_feature">
+                        <div class="icon">
+                            <img src="img/svg_icon/feature_6.svg" alt="">
+                        </div>
+                        <h4>สามารถกับหนดเป้ามายได้</h4>
+                        <p>กำหนดเป้าหมายในการสร้างผลงานให้ออกมาให้รูปแบบที่ต้องการได้</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ features_area  -->
+
+    <!-- testimonial_area  -->
+    <div class="testimonial_area ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="testmonial_active owl-carousel">
+                            <div class="single_carousel">
+                                    <div class="single_testmonial text-center">
+                                            <div class="quote">
+                                                <img src="img/testmonial/quote.svg" alt="">
+                                            </div>
+                                            <p>“พูดน้อยแต่ทำเยอะ ให้ความสำคัญกับกระบวนการทางความคิดให้เยอะ เรียบเรียงสิ่งที่ซับซ้อน ให้เข้าใจง่าย และสื่อสารออกมาได้อย่างชัดเจน คลี่คลาย เหมือนกำลังตัดทอนคำพูดที่ใช้สื่อสารให้เหลือน้อยที่สุด แต่มาจากการลงทำมือทำเยอะที่สุด” </p>
+                                            <div class="testmonial_author">
+                                                <div class="thumb">
+                                                        <img src="img/testmonial/thumb1.png" alt="">
+                                                </div>
+                                                <h3>รุ่งนภา คาน</h3>
+                                                <span>อาจารย์ประจำภาควิชากราฟิก คณะมีเดียอาตส์ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี</span>
+                                            </div>
+                                        </div>
+                            </div>
+                            <div class="single_carousel">
+                                    <div class="single_testmonial text-center">
+                                            <div class="quote">
+                                                <img src="img/testmonial/quote.svg" alt="">
+                                            </div>
+                                            <p>“ถ้าอะไรที่ควรแนะนำ เราว่าสิ่งที่นักออกแบบรุ่นใหม่ๆ รู้ไว้แล้วจะช่วยทำงานให้ดีขึ้นคือการ C & D (Copy and Development) คือลอกเลียนแล้วต่อยอดจากมัน พยายามลอก แต่ไม่ใช่แค่ลอกจากภาพงานโต้งๆ ให้ลอกเข้าไปใน วิธีคิดของคนๆ นั้น ทำไมเขาใช้คู่สีนี้ ฟอนต์นี้มีวิธีทำยังไง แล้วสุดท้ายคุณก็จะเอาไปต่อยอดในงานคุณได้เอง ถ้าคุณลอกมาทั้งดุ้นแบบนั้นก็ C & D เหมือนกัน แต่มัน Copy and Dead อะ”</p>
+                                            <div class="testmonial_author">
+                                                <div class="thumb">
+                                                        <img src="img/testmonial/thumb2.png" alt="">
+                                                </div>
+                                                <h3>พงศ์ธร ยิ้มแย้ม</h3>
+                                                <span>Art Director / a day BULLETIN</span>
+                                            </div>
+                                        </div>
+                            </div>
+                            <div class="single_carousel">
+                                    <div class="single_testmonial text-center">
+                                            <div class="quote">
+                                                <img src="img/testmonial/quote.svg" alt="">
+                                            </div>
+                                            <p>“สมัยเรียนเราจำฝังใจเลยว่าอาจารย์มักคอยย้ำในเรื่องของงานที่เป็น originality กลายเป็นเวลาจะออกแบบงานทุกอย่าง เราจะใช้เวลาในการ research มากที่สุด พยายามดึงความพิเศษเฉพาะของงานนั้นๆ ออกมาให้ได้ แล้วหาวิธีสื่อสารให้งานเป็นเอกลักษณ์ในแบบตัวของเขาเอง”</p>
+                                            <div class="testmonial_author">
+                                                <div class="thumb">
+                                                        <img src="img/testmonial/thumb3.png" alt="">
+                                                </div>
+                                                <h3>มานิตา ส่งเสริม</h3>
+                                                <span>Graphic Designer</span>
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /testimonial_area  -->
+
+    <footer class="footer">
+            
+		<div class=" container">
+                <div class="pro_border">
+                        <div class="row">
+                                <div class="col-xl-6 col-md-6">
+                                    <div class="lets_projects">
+                                        <h3>JUNIOR DESIGH</a> </h3>
+								
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-md-6">
+                                    <div class="phone_number">
+                                        <h3>
+											<a href="#">juniordesign62@gmail.com</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+            <div class="footer_top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-md-6 col-lg-3">
+                            <div class="footer_widget">
+                                <div class="footer_logo">
+                                    <a href="#">
+                                        <img src="img/footer_logo1.png" alt="">
+                                    </a>
+                                </div>
+                                <p> &nbsp;&nbsp;&nbsp;&nbsp;เว็บไซต์นี้พัฒนาเพื่อต้องการเผยแพร่ข้อมูลทางการศึกษาแก้นักเรียน และบุคคลทั่วไปที่ต้องการจะศึกษาเรื่องการสร้างอินโฟกราฟิก </p>
+								 <div class="socail_links">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/Juniordesigninfographic"target="_blank">
+                                                <i class="ti-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.youtube.com/channel/UC95Z6i3SBM1KY1ZBSZWvDMQ"target="_blank">
+                                                <i class="fa fa-youtube-play"></i>
+                                            </a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+    <br>
+	<br> 
+								<h3 class="footer_title">
+                                        ขอขอบคุณ
+                                </h3>
+								 <div class="footer_logo">
+                                    <a href="https://www.freepik.com/"target="_blank">
+                                        <img src="img/case_study/freepik.png" alt="">
+                                    </a>
+                                </div>
+								 
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;ขอขอบคุณเว็บไซต์&nbsp; <a href="https://www.freepik.com/"target="_blank">freepik.com</a> &nbsp;อนุเคราะห์ในเรื่องรูปภาพที่นำมาใช้งานในการสร้างเว็บไซต์ในครังนี้ </p>
+                               
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-6 offset-lg-0 col-lg-4">
+                            <div class="footer_widget">
+                                <h3 class="footer_title">
+                                        หลักสูตรของเรา
+                                </h3>
+                                <ul>
+                                    <li><a href="Page2.html">อินโฟกราฟิก</a></li>
+                                    <li><a href="Page3.html">แนวคิดการผลิตอินโฟกราฟิก </a></li>
+                                    <li><a href="Page4.html">หลักการใช้งานกราฟิกรูปแบบต่างๆ</a></li>
+                                    <li><a href="Page5.html">การออกแบบอินโฟกราฟิกเบื้องต้น</a></li>
+                                    <li><a href="Page6.html">กลเม็ดการผลิตอินโฟกราฟิกให้ดูดี</a></li>
+									<li><a href="Page7.html">การออกแบบอินโฟกราฟิกด้วยโปรแกรมอื่นๆ</a></li>
+									<li><a href="Page8.html">เทคนิคการใช้สี</a></li>
+									<li><a href="Page9.html">วงล้อสี</a></li>
+                                </ul>
+    
+                            </div>
+							
+                        </div>
+                        <div class="col-xl-2 col-md-6 col-lg-2">
+                            <div class="footer_widget">
+                                <h3 class="footer_title">
+                                       การติดต่อ
+                                </h3>
+                                <ul>
+                                    <li><a href="about.html">เกี่ยวกับ</a></li>
+                                    <li><a href="https://www.facebook.com/Juniordesigninfographic" target="_blank" >facebook</a></li>
+                                    <li><a href="https://www.youtube.com/channel/UC95Z6i3SBM1KY1ZBSZWvDMQ" target="_blank">YouTube</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+						
+						<div class="col-xl-5 col-md-6 col-lg-6">
+                            <div class="footer_widget">
+                                <div class="fb-page" data-href="https://www.facebook.com/Juniordesigninfographic/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Juniordesigninfographic/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Juniordesigninfographic/">Junior design</a></blockquote></div>
+                            </div>
+                        </div>
+					
+                        <div class="col-xl-4 offset-xl-1 col-md-6 col-lg-4">
+                                <div class="footer_widget"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right_text">
+                <div class="container">
+                    <div class="footer_border"></div>
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <p class="copy_right text-center">
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy; 2020 สร้างโดย | นายกิตติศักดิ์&nbsp;&nbsp;บุญเกตุ&nbsp;&nbsp; & &nbsp;นางสาวอรวรรษา&nbsp;&nbsp;ทองสวน<!--<em class="fa fa-heart-o" aria-hidden="true"></em> by <a href="https://colorlib.com" target="_blank">Colorlib</a><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+	
+
+    <script src="js/main.js"></script>
+	
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v6.0"></script>
+	
+</body>
+
+
+
+</html>
